@@ -1,0 +1,6 @@
+package mycom:hello;
+
+world api-gateway {
+  import mycom:hello2/ratingcoordinator;
+  export wasi:http/incoming-handler@0.2.0;
+}
